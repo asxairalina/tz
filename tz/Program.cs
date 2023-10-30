@@ -36,6 +36,7 @@ abstract class Transport
         return "Transport makes a sound";
     }
 
+
     public void Speed()
     {
         Console.WriteLine($"Мотор: {Motor} для данного вида транспорта");
