@@ -6,6 +6,11 @@ Transport Bicycle = new Bicycle();
 Transport Motrcycle = new Motrcycle();
 Transport Scooter = new Scooter();
 
+
+
+
+
+
 Console.WriteLine(Boat);
 Console.WriteLine(Car);
 Console.WriteLine(Bicycle);
