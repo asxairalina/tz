@@ -2,9 +2,18 @@
 {
     internal class Boat : Transport
     {
-        public override void Speed()
+        public override string MakeSound()
         {
-            Console.WriteLine($"Boat - {Wheels} не имеет");
+            return "Boat makes a sound";
         }
+
+        private string _model;
+
+        public override string Model
+        {
+            get { return _model; }
+            set { _model = value; }
+        }
+
     }
 }
